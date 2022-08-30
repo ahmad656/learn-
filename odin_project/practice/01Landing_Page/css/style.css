@@ -3,7 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
+/* hero section styling */
 .hero {
     background-color: #1f2937;
     height: fit-content;
@@ -78,4 +78,44 @@ img {
     background-color: #3882f6;
     padding: 7px 45px;
     border-radius: 7px;
+}
+
+
+/* information section */
+
+.info_text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.info_container {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+}
+.card_box {
+    width: 150px;
+    height: 150px;
+    border: 5px #3882f6 solid;
+    border-radius: 15px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.card_text {
+    width: 150px;
+    text-align: center;
+    
 }
