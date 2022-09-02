@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
 /* hero section styling */
 .hero {
     background-color: #1f2937;
@@ -118,4 +119,59 @@ img {
     width: 150px;
     text-align: center;
     
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.quote_text {
+    width: 700px;
+    font-size: 26px;
+    padding: 20px;
+}
+
+.quote_call {
+    background-color: #3882f6;
+    width: 750px;
+    padding: 35px 70px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.call_action {
+    border: 2px wheat solid;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.call-text {
+    color: wheat;
+    font-size: 18px;
+}
+.call-text-main {
+    color: wheat;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px ;
+}
+
+.foter {
+    background-color: #1f2937;
+    height:60px ;
+    justify-self: baseline;
+}
+
+.container-body {
+    display: flex;
+    flex-direction: column;
+    /* align-content: space-between; */
+    justify-content: space-between;
+    gap: 10px;
+    /* flex: 1 0 auto; */
 }
